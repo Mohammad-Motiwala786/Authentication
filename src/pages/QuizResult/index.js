@@ -9,7 +9,7 @@ const QuizResult = () => {
         return (
             <Layout>
                 <h1>Results: {result} </h1>
-                <button onClick={() => setFinish(false)}>Wanna Try again?</button>
+                <button onClick={() => setFinish(false)}>Wanna Try again...?</button>
             </Layout>
         )
     }
