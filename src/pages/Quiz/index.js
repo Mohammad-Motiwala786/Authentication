@@ -21,7 +21,7 @@ const Quiz = ({ onFinish,onResult }) => {
     }, [questions, count, score]);
     if (!questions) {
         return (
-            <p>Loding... </p>
+            <p>Loding ..... </p>
         )
     }
     const answers = [...questions[count].incorrect_answers, questions[count].correct_answer];
