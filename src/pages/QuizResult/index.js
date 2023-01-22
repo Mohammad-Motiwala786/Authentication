@@ -8,7 +8,7 @@ const QuizResult = () => {
     if (finish) {
         return (
             <Layout>
-                <h1>Results: {result} </h1>
+                <h1>Results Are Ready: {result} </h1>
                 <button onClick={() => setFinish(false)}>Wanna Try again...?</button>
             </Layout>
         )
